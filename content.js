@@ -84,7 +84,7 @@ function createOrUpdateButton(container, fragranceName) {
   // Create the button
   const button = document.createElement('button');
   button.className = 'fragrance-hover-btn';
-  button.innerHTML = '🔍 Fragrantica';
+  button.innerHTML = 'Fragrantica';
   button.style.cssText = `
     position: absolute;
     bottom: 12px;
